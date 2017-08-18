@@ -8,7 +8,15 @@
     "build": "webpack src/js/app.js dist/bundle.js",
     "build:prod": "webpack src/js/app.js dist/bundle.js -p"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarethElms/yt-webpack2-basics.git"
+  },
   "author": "",
+  "bugs": {
+    "url": "https://github.com/GarethElms/yt-webpack2-basics/issues"
+  },
+  "homepage": "https://github.com/GarethElms/yt-webpack2-basics#readme",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^2.2.1"
