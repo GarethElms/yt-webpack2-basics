@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build1": "webpack src/js/app.js dist/bundle.js",
-	 "build1:prod": "webpack src/js/app.js dist/bundle.js -p",
-	 "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
-    "build:prod": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js -p"
+    "build1:prod": "webpack src/js/app.js dist/bundle.js -p",
+    "build": "webpack-dev-server",
+	 "build:prod": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "homepage": "https://github.com/GarethElms/yt-webpack2-basics#readme",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.28.5",
+    "style-loader": "^0.18.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.7.1"
   }
